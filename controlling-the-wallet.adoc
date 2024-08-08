@@ -15,7 +15,7 @@ TIP: If using `bitcoin-qt` there is also an RPC console built into the GUI or yo
 
 If using the `bitcoin-qt` GUI itself then communication with the wallet is done directly via qt's https://github.com/bitcoin/bitcoin/blob/v23.0/src/qt/walletmodel.h#L51-L52[`WalletModel` interface^].
 
-Commands which can be used to control the wallet via RPC are listed in https://github.com/bitcoin/bitcoin/blob/v23.0/src/wallet/rpc/wallet.cpp#L662-L731[_rpcwallet.cpp_^].
+Commands which can be used to control the wallet via RPC are listed in https://github.com/bitcoin/bitcoin/blob/v23.0/src/wallet/rpc/wallet.cpp#L662-L731[_rpc/wallet.cpp_^].
 
 === Wallet via RPC
 
